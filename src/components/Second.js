@@ -3,15 +3,15 @@ import Particles from "react-particles-js";
 
 const Second = () => {
   return (
-    <div>
+    <div style={{ background: "hotpink" }}>
       <Particles
         params={{
           particles: {
             number: {
-              value: 50,
+              value: 200,
             },
             size: {
-              value: 3,
+              value: 4,
             },
           },
           interactivity: {
