@@ -10,21 +10,23 @@ import Polygon from "./components/Polygon";
 function App() {
   return (
     <Router>
-      <NavLink exact to="/snow">
-        Snow
-      </NavLink>
-      <NavLink exact to="/">
-        Home
-      </NavLink>
-      <NavLink exact to="/second">
-        Second
-      </NavLink>
-      <NavLink exact to="/night">
-        NightSky
-      </NavLink>
-      <NavLink exact to="/polygon">
-        Polygon
-      </NavLink>
+      <div className="sidenav">
+        <NavLink exact to="/">
+          Home
+        </NavLink>
+        <NavLink exact to="/snow">
+          Snow
+        </NavLink>
+        <NavLink exact to="/second">
+          Second
+        </NavLink>
+        <NavLink exact to="/night">
+          NightSky
+        </NavLink>
+        <NavLink exact to="/polygon">
+          Polygon
+        </NavLink>
+      </div>
       <Route exact path="/snow">
         <Snow />
       </Route>
