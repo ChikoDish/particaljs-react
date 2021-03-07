@@ -25,19 +25,19 @@ function App() {
       <NavLink exact to="/polygon">
         Polygon
       </NavLink>
-      <Route path="/snow">
+      <Route exact path="/snow">
         <Snow />
       </Route>
-      <Route path="/">
+      <Route exact path="/">
         <First />
       </Route>
-      <Route path="/second">
+      <Route exact path="/second">
         <Second />
       </Route>
-      <Route path="/night">
+      <Route exact path="/night">
         <NightSky />
       </Route>
-      <Route path="/polygon">
+      <Route exact path="/polygon">
         <Polygon />
       </Route>
     </Router>

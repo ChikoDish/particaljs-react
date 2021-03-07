@@ -8,11 +8,11 @@ const First = () => {
         params={{
           particles: {
             color: {
-              value: "#000000",
+              value: "#FFF",
             },
             line_linked: {
               color: {
-                value: "#000000",
+                value: "#FFF",
               },
             },
             number: {
