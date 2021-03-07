@@ -29,7 +29,7 @@ const Snow = () => {
             events: {
               onclick: {
                 enable: true,
-                mode: "remove",
+                mode: "push",
               },
             },
             modes: {
@@ -40,7 +40,6 @@ const Snow = () => {
           },
         }}
       />
-      v3.3.0
     </div>
   );
 };

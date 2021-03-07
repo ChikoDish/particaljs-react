@@ -22,6 +22,14 @@ const First = () => {
               value: 3,
             },
           },
+          interactivity: {
+            events: {
+              onclick: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
         }}
       />
     </div>
